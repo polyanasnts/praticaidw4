@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1024px;
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+#imagem-receita {
+    width: 400px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: "Fira Code";
+    text-align: center;
+}
+
+h2 {
+    font-family: "Montserrat";
+}
+
+ol {
+    font-family: Montserrat;
+    line-height: 1.5rem;
+}
+
+ul{
+    font-family: Montserrat;
+    line-height: 1.5rem;
+}
+
+#descricao {
+    font-family: Helvetica, sans-serif;
+    font-size: 0.8rem;
+    text-indent: 4rem;
+    line-height: 1.5rem;
+    font-style: italic;
+    color: gray;
+}
+#des {
+    font-family: Montserrat;
+}
+
+#modo {
+    font-style: italic;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+min {
+    font-weight: bolder;
+    color: gray;
+}
+
+hr {
+    border-color: black;
+    
+}
